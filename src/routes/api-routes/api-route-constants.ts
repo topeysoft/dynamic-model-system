@@ -1,0 +1,24 @@
+export const ApiRouteConstants={
+    url:{
+        projects:{
+            patterns:{
+                get_many:'/',
+                get_one:'/:project_id',
+                post:'/',
+                put:'/:project_id',
+                patch:'/:project_id',
+                delete:'/:project_id'
+            }
+        },
+        entities:{
+            patterns:{
+                get_many:'/:project_id/:entity_name',
+                get_one:'/:project_id/:entity_name/:entity_id',
+                post:'/:project_id/:entity_name/',
+                put:'/:project_id/:entity_name/:entity_id',
+                patch:'/:project_id/:entity_name/:entity_id',
+                delete:'/:project_id/:entity_name/:entity_id'
+            }
+        }
+    }
+}

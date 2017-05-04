@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./build/",
+        "sourceMap": true,
+        "pretty":true,
+        "emitDecoratorMetadata":true,
+        "experimentalDecorators":true, 
+        "forceConsistentCasingInFileNames":true
+        
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
